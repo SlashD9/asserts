@@ -22,7 +22,4 @@ test_are_equal(get_change(9), [5, 2, 2])
 test_are_equal(get_change(35, usd_coins), [25, 10])
 test_are_equal(get_change(25, usd_coins), [25])
 
-
-
-
 print("All tests pass!")
